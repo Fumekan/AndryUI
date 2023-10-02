@@ -47,4 +47,4 @@ client.once('ready', () => {
     console.log('AndryUI is ready!');
 });
 
-client.login('MTE1ODQ2Nzc0MDY3MjIwODk2OQ.GOdjB8.vKtRgnsgSsz0K7uZ1y32RN0NXKMR2Oa0LwBtnM');
+client.login('TOKEN');
