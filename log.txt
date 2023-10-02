@@ -1,0 +1,25 @@
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open 'responses.json'
+    at Object.openSync (node:fs:590:3)
+    at Object.readFileSync (node:fs:458:35)
+    at Object.<anonymous> (/root/AndryUI/index.js:17:17)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: 'responses.json'
+}
+AndryUI is ready!
+2023/10/2 - 19:21:22|Bot test|test|fumekan: <@1158467740672208969>
+2023/10/2 - 19:21:22|Bot test|test|AndryUI: co je to veteránský důchod?
+2023/10/2 - 19:23:17|Bot test|test|fumekan: Co říkáš na PH?
+2023/10/2 - 19:23:18|Bot test|test|AndryUI: to jídlo je drahý jako kurva.
+AndryUI is ready!
