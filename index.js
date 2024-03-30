@@ -25,7 +25,7 @@ client.on('messageCreate', async message => {
 	if (message.author.bot || !message.content.trim()) return;
 
 	for (const word of triggerWords) {
-		if (message.content.toLowerCase().includes(word) || message.content.includes('@1158467740672208969')) {
+		if (message.content.toLowerCase().includes(word) || message.content.includes('@1158467740672208969') ||( message.channel.id == '1223380151203659856' && message.author.id == '1110915541469773866')) {
 			try {
 				const response = await openai.chat.completions
 					.create({
